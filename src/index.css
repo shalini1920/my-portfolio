@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Cloud gradient background */
+body {
+  @apply bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 text-white;
+  font-family: 'Poppins', sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
